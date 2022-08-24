@@ -49,7 +49,7 @@ ul {
 .header .container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding-inline: 100px;
     padding-block: 50px;
     gap: 50px;
@@ -62,6 +62,7 @@ ul {
     align-items: flex-start;
     justify-content: flex-start;
     font-size: 18px;
+    max-width: 500px;
 }
 
 h1 {
