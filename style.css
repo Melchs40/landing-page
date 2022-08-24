@@ -6,7 +6,8 @@ body {
 
 img {
     height: 200px;
-    width: 500px;
+    width: 200px;
+    border-radius: 10px;
 }
 
 ul {
@@ -48,9 +49,9 @@ ul {
 .header .container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
     padding-inline: 100px;
     padding-block: 50px;
-    flex: 0 0 100;
     gap: 50px;
 }
 
@@ -72,7 +73,7 @@ h1 {
     padding: 0;
 }
 
-button {
+.header .container .info button {
     color: #f9faf8;
     background-color: #3882f6;
     padding: 8px;
@@ -85,6 +86,7 @@ button {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    flex: 0 0 100;
     margin: 50px;
     font-size: 36px;
 }
@@ -92,9 +94,12 @@ button {
 .box-group .container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .boxes .container .title {
+    align-self: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937
@@ -103,8 +108,8 @@ button {
 .box {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 10px;
+    flex-wrap: wrap;
+    margin-inline: 20px;
     font-size: 18px;
     align-items: center;
 }
@@ -117,22 +122,57 @@ button {
 .quote .container {
     display: flex;
     flex-direction: column;
+    flex: 0 0 100;
     background-color: #e5e7eb;
-    padding: 50px;
+    padding: 100px;
+    padding-inline: 150px;
 }
 
 .quote .container .content {
     font-size: 36px;
     font-style: italic;
+    margin-bottom: 25px;
 }
 
 .quote .container .author {
     align-self: flex-end;
     font-size: 24px;
     font-weight: bold;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
+.action .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 0 0 100;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 100px 100px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.action .container .info {
+    padding: 50px;
+}
+
+.action .container h1 {
+    font-size: 24px;
+    color: #f9faf8;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.action .container button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    border-color: #f9faf8;
+    border-radius: 5px;
+}
 
 
 
