@@ -13,14 +13,12 @@ ul {
     list-style-type: none;
 }
 
-
 .navbar {
     color: #f9faf8;
     background-color: #1F2937;
     font-size: 24px;
     margin: 0px;
     padding: 0px;
-
 }
 
 .navbar .container{
@@ -114,4 +112,34 @@ button {
 .box img {
     height: 200px;
     width: 200px;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quote .container .content {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .container .author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 200px;
+}
+
+
+
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    padding: 10px;
 }
