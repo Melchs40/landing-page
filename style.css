@@ -8,6 +8,7 @@ img {
     max-height: 300px;
     max-width: 800px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 ul {
@@ -49,8 +50,8 @@ ul {
 .header .container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
-    padding-inline: 100px;
+    flex-wrap: wrap;
+    padding-inline: 25px;
     padding-block: 50px;
     gap: 50px;
     flex: 0 0 100;
@@ -62,6 +63,8 @@ ul {
     align-items: flex-start;
     justify-content: flex-start;
     font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 h1 {
